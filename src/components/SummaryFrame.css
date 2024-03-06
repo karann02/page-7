@@ -1,0 +1,159 @@
+.appointments1,
+.history1,
+.videos-library1,
+.videos1 {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.videos-library1 {
+  white-space: nowrap;
+}
+.background-ellipse {
+  flex-direction: column;
+  gap: 14px 0;
+}
+.background-ellipse,
+.credit-debit-card-symbol,
+.payment-details-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.credit-debit-card-symbol {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lg);
+  font-size: var(--font-size-sm);
+}
+.payment-details-container {
+  flex-direction: column;
+  gap: 28px 0;
+}
+.faqs1,
+.messages1,
+.procedure-information1,
+.support1 {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.procedure-information1 {
+  width: 133px;
+  display: inline-block;
+}
+.faqs-parent {
+  flex-direction: column;
+  gap: 14px 0;
+}
+.faqs-parent,
+.payment-details-container-inner,
+.payment-details-container1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.payment-details-container-inner {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lg);
+  font-size: var(--font-size-sm);
+}
+.payment-details-container1 {
+  flex-direction: column;
+  gap: 28px 0;
+}
+.aftercare1,
+.health-skin1,
+.quizzes1 {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.health-skin1 {
+  white-space: nowrap;
+}
+.quizzes-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px 0;
+}
+.payment-details-container-child,
+.payment-details-container2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.payment-details-container-child {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-lg);
+  font-size: var(--font-size-sm);
+}
+.payment-details-container2 {
+  flex-direction: column;
+  gap: 28px 0;
+}
+.finances1 {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.h-d-f-c-logo-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+}
+.heroiconsolidgift-frame {
+  position: absolute;
+  top: 739px;
+  left: 14px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-floralwhite);
+  width: 212px;
+  height: 48px;
+  z-index: 1;
+}
+.amount-paid-transaction-i-d {
+  height: 944px;
+  width: 240px;
+  position: absolute;
+  margin: 0 !important;
+  top: -753px;
+  right: -57px;
+}
+.virtual-consultation1 {
+  width: 155px;
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  z-index: 2;
+}
+.bank-mobile-email-input,
+.summary-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bank-mobile-email-input {
+  flex-direction: row;
+  position: relative;
+}
+.summary-frame {
+  width: 166px;
+  flex-direction: column;
+  gap: 36px 0;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-cabin);
+}
+@media screen and (max-width: 975px) {
+  .summary-frame {
+    display: none;
+  }
+}

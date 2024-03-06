@@ -1,0 +1,906 @@
+.tax-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mediumseagreen);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.discount-label {
+  accent-color: #2b9d73;
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 2;
+}
+.subtotal-label {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+.add-details-frame,
+.shipping1 {
+  position: relative;
+  z-index: 1;
+}
+.add-details-frame {
+  align-self: stretch;
+  height: 2px;
+  background-color: var(--color-dimgray-200);
+}
+.payment-form1,
+.subtotaltax-discount-frame {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.payment-form1 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.subtotaltax-discount-frame {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 9.5px;
+  min-width: 180px;
+}
+.payment-type-group {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  z-index: 2;
+}
+.agree-checkbox,
+.billing1 {
+  position: relative;
+  z-index: 1;
+}
+.agree-checkbox {
+  align-self: stretch;
+  height: 2px;
+  background-color: var(--color-dimgray-200);
+}
+.ellipse-shape {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs);
+}
+.credit-debit-card,
+.product-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.credit-debit-card {
+  width: 201px;
+  align-items: flex-end;
+  gap: 0 9px;
+}
+.product-frame {
+  flex: 1;
+  align-items: center;
+  gap: 0 30px;
+  min-width: 355px;
+  max-width: 100%;
+}
+.confirmation1,
+.vector-icon8 {
+  position: relative;
+  z-index: 2;
+}
+.confirmation1 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-cabin);
+  z-index: 1;
+}
+.group-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 0;
+  gap: 0 26px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+}
+.preview-invoice5 {
+  position: relative;
+  line-height: 21px;
+  z-index: 1;
+}
+.claim-points-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs);
+}
+.dr-vihang-jane-doe-name-frame {
+  width: 855px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 31px;
+  max-width: 100%;
+}
+.rate-qty-amount1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.subtotal-tax-discount {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 14px;
+  height: 13.3px;
+  z-index: 2;
+}
+.vitamin-a-serum-frame {
+  height: 38px;
+  width: 38px;
+  position: relative;
+}
+.vitamin-a-serum-frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-whitesmoke);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.vector-icon9 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 18px;
+  height: 18px;
+  z-index: 2;
+}
+.vitamin-a-serum-frame1 {
+  height: 38px;
+  width: 38px;
+  position: relative;
+}
+.dr-jane-doe-frame,
+.summary-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dr-jane-doe-frame {
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.summary-group {
+  align-self: stretch;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.card-number1,
+.enter-name-on1,
+.expiry-mmyy1,
+.payment-method1 {
+  position: absolute;
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  text-align: left;
+  z-index: 1;
+}
+.payment-method1 {
+  top: 12px;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.card-number1,
+.enter-name-on1,
+.expiry-mmyy1 {
+  top: 130px;
+  left: 2px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+}
+.card-number1,
+.expiry-mmyy1 {
+  top: 213px;
+}
+.expiry-mmyy1 {
+  top: 296px;
+}
+.add-details,
+.payment-method2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.payment-method2 {
+  top: 2px;
+  left: 2px;
+  background-color: var(--color-black);
+  width: 16px;
+  height: 16px;
+  z-index: 2;
+}
+.parent-payment {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+}
+.frame-child11 {
+  height: 48px;
+  width: 184px;
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.save2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-dimgray-100);
+  text-align: center;
+  z-index: 1;
+}
+.net-banking2,
+.rectangle-parent18 {
+  position: absolute;
+  background-color: var(--color-white);
+}
+.rectangle-parent18 {
+  cursor: pointer;
+  border: 1px solid var(--color-dimgray-100);
+  padding: var(--padding-smi) var(--padding-30xl) var(--padding-sm)
+    var(--padding-29xl);
+  top: 441px;
+  left: 2px;
+  border-radius: var(--br-5xl);
+  box-sizing: border-box;
+  width: 184px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.points:hover,
+.rectangle-parent18:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+}
+.net-banking2 {
+  height: 761px;
+  width: 751px;
+  margin: 0 !important;
+  bottom: -158px;
+  left: -156px;
+  border-radius: var(--br-sm);
+}
+.add-payment-details1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 94px;
+  left: -128px;
+  font-size: var(--font-size-base);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-cabin);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  z-index: 1;
+}
+.order-i-d {
+  top: 154px;
+}
+.order-i-d,
+.order-i-d1,
+.order-i-d2 {
+  border: 0.5px solid var(--color-dimgray-100);
+  outline: 0;
+  background-color: var(--color-white);
+  height: 43px;
+  width: 340px;
+  position: absolute;
+  margin: 0 !important;
+  left: -126px;
+  border-radius: var(--br-6xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.order-i-d1 {
+  top: 237px;
+}
+.order-i-d2 {
+  bottom: 158px;
+}
+.creditdebit-card1,
+.ellipse-shape1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 48px;
+  z-index: 1;
+}
+.creditdebit-card1 {
+  left: -98px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  color: var(--color-gray);
+  text-align: left;
+}
+.ellipse-shape1 {
+  height: 20px;
+  width: 20px;
+  left: 31px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  border: 0 solid var(--color-black);
+  box-sizing: border-box;
+}
+.by-clicking-on,
+.with-the-terms {
+  margin: 0;
+}
+.by-clicking-on-container1 {
+  width: 277px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 100px;
+  left: -126px;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.parent-group-child {
+  width: 600px;
+  height: 521px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.parent-group-item {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  margin: 0 !important;
+  top: 38px;
+  left: calc(50% - 40px);
+  z-index: 6;
+}
+.order-id-7864,
+.payment-successful {
+  position: relative;
+  font-family: var(--font-cabin);
+  text-align: left;
+  z-index: 6;
+}
+.payment-successful {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  font-weight: 400;
+  color: var(--color-mediumseagreen);
+}
+.order-id-7864 {
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.amount-i-d,
+.net-banking-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+}
+.net-banking-frame {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-8xs);
+  gap: 5px 0;
+}
+.net-banking3,
+.payment-type {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  color: var(--color-gray);
+  text-align: left;
+  z-index: 6;
+}
+.net-banking3 {
+  color: var(--color-dimgray-100);
+}
+.payment-type-group1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bank {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  color: var(--color-gray);
+  text-align: left;
+  z-index: 6;
+}
+.mobile {
+  white-space: nowrap;
+}
+.email,
+.mobile {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  color: var(--color-gray);
+  text-align: left;
+  z-index: 6;
+}
+.amount-paid-transaction-i-d1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+}
+.amount-paid,
+.transaction-id {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-cabin);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 6;
+}
+.transaction-id {
+  white-space: nowrap;
+}
+.bank-mobile-email,
+.dr-vihang-jane-doe1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.bank-mobile-email {
+  gap: 25px 0;
+}
+.hdfc {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  z-index: 6;
+}
+.h-d-f-c {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.div45 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-cabin);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.h-d-f-c1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.bdebashis182 {
+  font-family: var(--font-cabin);
+}
+.span {
+  font-family: var(--font-inter);
+}
+.gmailcom {
+  font-family: var(--font-cabin);
+}
+.bdebashis182gmailcom {
+  width: 155px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 6;
+}
+.h-d-f-c-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 4px 0;
+}
+.heroiconssolidgift,
+.heroiconssolidgift1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-cabin);
+  color: var(--color-black);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.heroicons-solidgift {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.points1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-cabin);
+  color: var(--color-black);
+  text-align: left;
+}
+.points {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-5xs) var(--padding-2xs) var(--padding-5xs)
+    var(--padding-4xs);
+  background-color: transparent;
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 9px;
+  z-index: 6;
+}
+.points:hover {
+  background-color: var(--color-darkslategray-100);
+  border: 1px solid var(--color-darkslategray);
+}
+.heroiconssolidgift-parent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 11px 0;
+}
+.group1,
+.heroiconssolidgift-parent,
+.parent-rectangle {
+  display: flex;
+  justify-content: flex-start;
+}
+.group1 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.parent-rectangle {
+  width: 155px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 25px 0;
+}
+.payment-type-net-banking {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.h-d-f-c-frame {
+  width: 422px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  max-width: 100%;
+}
+.frame-child12 {
+  height: 33px;
+  width: 154px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+  display: none;
+}
+.rate-qty-amount2 {
+  height: 14px;
+  width: 15.8px;
+  position: relative;
+  z-index: 1;
+}
+.send-to-mail {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.frame-child13,
+.rectangle-parent19 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-black);
+}
+.rectangle-parent19 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-4xl) var(--padding-7xs)
+    var(--padding-9xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  white-space: nowrap;
+  z-index: 6;
+}
+.rectangle-parent19:hover,
+.rectangle-parent20:hover {
+  background-color: var(--color-darkslategray);
+}
+.frame-child13 {
+  height: 33px;
+  width: 152px;
+  position: relative;
+  display: none;
+}
+.claim-reward-points {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 21px;
+  font-family: var(--font-cabin);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+}
+.rectangle-parent20 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-2xs) var(--padding-7xs)
+    var(--padding-mini);
+  background-color: var(--color-black);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 6;
+}
+.frame-parent6,
+.main-frame {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent6 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 14px;
+}
+.main-frame {
+  padding: 0 var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+}
+.main-frame,
+.parent-group,
+.success-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.parent-group {
+  flex: 1;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-122xl) var(--padding-15xl) var(--padding-15xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 12px 0;
+  z-index: 5;
+}
+.success-frame {
+  position: absolute;
+  top: 0;
+  left: 128px;
+  width: 600px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.notes-terms-text {
+  margin: 0;
+  align-self: stretch;
+  height: 521px;
+  position: relative;
+  max-width: 100%;
+}
+.total-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 473px;
+  max-width: 100%;
+}
+.skin-club-logo-frame {
+  height: 761px;
+  width: 377px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -203px;
+  left: calc(50% - 188.5px);
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+}
+.frame-vitamin-a-serum,
+.line-shape {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-vitamin-a-serum {
+  width: 345px;
+  position: relative;
+  min-width: 345px;
+}
+.line-shape {
+  align-self: stretch;
+  gap: 0 35px;
+}
+.claim-reward-points-text,
+.skin-club-logo-logotype-white3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skin-club-logo-logotype-white3 {
+  align-self: stretch;
+  gap: 5px 0;
+  max-width: 100%;
+}
+.claim-reward-points-text {
+  flex: 1;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 264px);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-cabin);
+}
+@media screen and (max-width: 1025px) {
+  .summary-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .dr-vihang-jane-doe-name-frame {
+    flex-wrap: wrap;
+  }
+  .payment-successful {
+    font-size: var(--font-size-10xl);
+  }
+  .frame-vitamin-a-serum {
+    flex: 1;
+  }
+  .line-shape {
+    flex-wrap: wrap;
+  }
+  .claim-reward-points-text {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 725px) {
+  .product-frame {
+    flex-wrap: wrap;
+  }
+  .total-frame {
+    min-width: 100%;
+  }
+  .line-shape {
+    gap: 0 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .product-frame {
+    min-width: 100%;
+  }
+  .dr-vihang-jane-doe-name-frame {
+    gap: 0 31px;
+  }
+  .payment-successful {
+    font-size: var(--font-size-3xl);
+  }
+  .frame-parent6,
+  .payment-type-group1,
+  .payment-type-net-banking {
+    flex-wrap: wrap;
+  }
+  .notes-terms-text {
+    height: auto;
+    min-height: 521;
+  }
+  .frame-vitamin-a-serum {
+    min-width: 100%;
+  }
+}
